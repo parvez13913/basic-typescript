@@ -11,8 +11,8 @@ class BankAcount {
     this._balance = balance;
   }
 
-  getBalance() {
-    console.log(`My Balance is ${this._balance}`);
+  getBalance(): number {
+    return this._balance;
   }
   addDeposit(amount: number) {
     this._balance = this._balance + amount;
