@@ -9,6 +9,11 @@ class BankAcount1 {
     this.id = id;
     this._balance = _balance;
   }
+  //  Encapsulation
+  private getTestBalance(): number {
+    return this._balance;
+  }
+
   //   Gutter
   get balance(): number {
     return this._balance;

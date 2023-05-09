@@ -63,4 +63,4 @@ class Car extends VehicalsClass {
   }
 }
 
-const car1 = new VehicalsClass("Car", "Honda", 2012);
+// const car1 = new VehicalsClass("Car", "Honda", 2012);
